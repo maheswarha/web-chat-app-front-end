@@ -16,7 +16,7 @@ const Chat = ({ location }) => {
 	const [users, setUsers] = useState('');
 	const [message, setMessage] = useState('');
 	const [messages, setMessages] = useState([]);
-	const ENDPOINT = (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') ? 'localhost:5000' : process.env.REACT_APP_PRODUCTION_BACKEND_ENDPOINT;
+	const ENDPOINT = (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') ? 'localhost:5000' : `${process.env.REACT_APP_PRODUCTION_BACKEND_ENDPOINT}`;
 
 	useEffect(() => {
 		const { name, room } = queryString.parse(location.search);
