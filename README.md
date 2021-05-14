@@ -1,7 +1,7 @@
 # Web Chat Application (Front-End)
 
 ## Application Overview
-This is pretty much a realtime chat application that allows multiple users to have a meaningful conversation in a dedicated virtual space. Some of the key features of the app are:
+This is pretty much a real-time chat application that allows multiple users to have a meaningful conversation in a dedicated virtual space. Some of the key features of the app are:
 
  - Allows users to create/join a chat room.
  - Displays the usernames (people) that are currently in the chat room.
