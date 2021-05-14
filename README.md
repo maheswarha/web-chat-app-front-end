@@ -1,4 +1,4 @@
-# COVID-19 Tracker
+# Web Chat Application (Front-End)
 
 ## Application Overview
 This is pretty much a realtime chat application that allows multiple users to have a meaningful conversation in a dedicated virtual space. Some of the key features of the app are:
